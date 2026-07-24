@@ -42,7 +42,7 @@ The goal is to identify **SA2 areas with high population but weak bus service ac
      - `frequencies_per_1000`
      - `frequencies_per_km2`
 
-5. **Demand–supply and service deficit**
+5. **Demand-supply and service deficit**
    - Defined:
      - **Demand** = `population_density_2025 / frequencies_per_1000`
      - **Supply** = `frequencies_per_1000 / 1000`
@@ -78,21 +78,5 @@ The goal is to identify **SA2 areas with high population but weak bus service ac
   - Main choropleth map
   - Service‑deficit legend
   - Side table listing top‑priority under‑served suburbs.
-
-## How to Reproduce
-
-1. Clone this repository.
-2. Download the required datasets (ABS, GTFS, Brisbane bus stops) to the `data/` folder.
-3. Open the provided QGIS project file (`.qgz`).
-4. Ensure paths to CSVs and shapefiles are correct in the **Layer Properties → Source** tab.
-5. Open the **Print Layout** to export the final map as PDF.
-
-## Potential Extensions
-
-- Compare bus service equity with train or light‑rail networks.
-- Incorporate **job accessibility** or **travel time to CBD** as additional demand metrics.
-- Model “what‑if” scenarios (extra routes or increased frequency) to estimate improvements in service deficit.
-
----
 
 This project was developed as part of a data‑driven public transport equity analysis for Greater Brisbane.
